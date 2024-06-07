@@ -1,0 +1,52 @@
+<?php
+abstract class Car {
+public $color;
+public $model_name;
+public $mileage;
+public $color;
+
+
+abstract public function setBrandName($brand_name);
+abstract public function setModelName($model_name);
+abstract public function setMileage($mileage);
+abstract public function setColor($color);
+
+public function getBrandName(){
+return $this->brand_name;
+}
+public function getModelName(){
+return $this->model_name;
+}
+public function getMileage(){
+return $this->mileage;
+}
+public function getColor(){
+return $this->color=;
+}
+}
+
+class Tata extends Car{
+public function setBrandName($brand_name){
+$this->brand_name=$brand_name;
+}
+public function setModelName($model_name){
+$this->model_name=$model_name;
+}
+public function setMileage($mileage){
+$this->mileage=$mileage;
+}
+public function setBrandName($color){
+$this->color=$color;
+}
+}
+$tata= new Tata();
+$tata->brand_name("Punch");
+$tata->model_name("Top Model");
+
+echo "Brand :" getBrandName()  "<br>";
+echo "Brand :" getModelName()  "<br>";
+
+
+
+
+?>
