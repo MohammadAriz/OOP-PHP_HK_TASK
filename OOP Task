@@ -21,7 +21,7 @@ public function getMileage(){
 return $this->mileage;
 }
 public function getColor(){
-return $this->color=;
+return $this->color;
 }
 }
 
