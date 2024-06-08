@@ -40,8 +40,8 @@ $this->color=$color;
 }
 }
 $tata= new Tata();
-$tata->brand_name("Punch");
-$tata->model_name("Top Model");
+$tata->setBrandName("Punch");
+$tata->setModelName("Top Model");
 
 echo "Brand :" getBrandName()  "<br>";
 echo "Brand :" getModelName()  "<br>";
